@@ -1,3 +1,5 @@
+![](https://github.com/QcSiM008/zelda-botw-starter/workflows/CI/badge.svg)
+
 # Zelda BOTW starter
 
 ![Zelda BOTW demo](https://user-images.githubusercontent.com/530644/84588444-c3ca6400-ae27-11ea-827d-444ea4f9f4f2.png)
