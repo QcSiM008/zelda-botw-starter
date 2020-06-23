@@ -1,9 +1,9 @@
-type ItemType = {
+export type ItemType = {
   name: string;
-  category: string;
+  category?: string;
   icon: string;
-  value: string;
-  description: string;
+  value?: string;
+  description?: string;
   bonus?: string;
   isNew?: boolean;
 };

@@ -1,15 +1,21 @@
-import React from "react";
-import { ReactComponent as Triforce } from "./assets/triforce.svg";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
 
-function App() {
-  return (
-    <div className="min-h-screen flex justify-center items-center">
-      <h1 className="flex items-center font-bold text-5xl tracking-tight text-gray-900">
-        Zelda BOTW Starter
-        <Triforce className="ml-4 w-20 h-20 text-zelda-yellow fill-current" />
-      </h1>
-    </div>
-  );
-}
+const App = () => (
+  <div className="min-h-screen flex justify-center items-center">
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/menu">
+          <Menu />
+        </Route>
+      </Switch>
+    </Router>
+  </div>
+);
 
 export default App;
