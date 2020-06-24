@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zelda-botw-starter/precache-manifest.5f8b818fae9124d9a0aa65ee679ea72e.js"
+  "/zelda-botw-starter/precache-manifest.880cb644a914d90260926a1595ca38fe.js"
 );
 
 self.addEventListener('message', (event) => {
