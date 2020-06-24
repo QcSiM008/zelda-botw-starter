@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Grid from '../components/grid/Grid';
 import ItemsContext from '../context/ItemsContext';
-import KeyboardUtils from '../utils/keyboard';
+//import KeyboardUtils from '../utils/keyboard';
 import { IPosition } from '../utils/matrix';
 
 const Menu = () => {
