@@ -27,5 +27,3 @@ jobs:
         run: npm install
       - name: Run Tests
         run: npm test
-      - name: Deploy to github
-        run: npm run deploy
