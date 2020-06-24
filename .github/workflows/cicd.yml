@@ -28,4 +28,4 @@ jobs:
       - name: Run Tests
         run: npm test
       - name: Deploy to github
-        run: npm deploy
+        run: npm run deploy
