@@ -1,8 +1,10 @@
 import { createContext } from 'react';
+import { IPosition } from '../utils/matrix';
+
 const ItemsContext = createContext({
   clickSelectedItem: () => null,
-  setItemSelected: (item: number) => null,
-  itemSelected: 0,
+  setItemSelected: (item: IPosition) => {},
+  itemSelected: { x: 0, y: 0 },
 });
 
 export default ItemsContext;

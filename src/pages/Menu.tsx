@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import Grid from '../components/grid/Grid';
 import ItemsContext from '../context/ItemsContext';
 import KeyboardUtils from '../utils/keyboard';
+import { IPosition } from '../utils/matrix';
 
 const Menu = () => {
-  const [itemSelected, setItemSelected] = useState(0);
+  const [itemSelected, setItemSelected] = useState<IPosition>({ x: 0, y: 0 });
 
   const clickSelectedItem = () => null;
 

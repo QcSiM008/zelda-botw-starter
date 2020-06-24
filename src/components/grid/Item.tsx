@@ -2,6 +2,7 @@ import React, { FC, useContext } from 'react';
 import classNames from 'classnames/bind';
 import ItemsContext from '../../context/ItemsContext';
 import { ItemType } from '../../data/items.type';
+import MatrixUtils from '../../utils/matrix';
 
 export interface IItem extends ItemType {
   itemIndex: number;
@@ -9,13 +10,13 @@ export interface IItem extends ItemType {
 
 const Item: FC<IItem> = ({ name, icon, itemIndex }) => {
   const { setItemSelected, itemSelected } = useContext(ItemsContext);
-
-  const handleClick = () => setItemSelected(itemIndex);
+  const position = MatrixUtils.getMatrixPositionFromIndex(itemIndex);
+  const handleClick = () => setItemSelected(position);
 
   return (
     <div
       className={classNames(
-        { 'shadow-yellow border-zelda-softYellow border-2': itemSelected === itemIndex },
+        { 'shadow-yellow border-zelda-softYellow border-2': itemSelected === position },
         'w-20 h-20 bg-black border border-zelda-softYellow',
       )}
     >
