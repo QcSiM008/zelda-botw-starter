@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zelda-botw-starter/static/css/main.fd1968fe.chunk.css",
+    "main.js": "/zelda-botw-starter/static/js/main.e64ff212.chunk.js",
+    "main.js.map": "/zelda-botw-starter/static/js/main.e64ff212.chunk.js.map",
+    "runtime-main.js": "/zelda-botw-starter/static/js/runtime-main.cfebe4ee.js",
+    "runtime-main.js.map": "/zelda-botw-starter/static/js/runtime-main.cfebe4ee.js.map",
+    "static/js/2.16547c78.chunk.js": "/zelda-botw-starter/static/js/2.16547c78.chunk.js",
+    "static/js/2.16547c78.chunk.js.map": "/zelda-botw-starter/static/js/2.16547c78.chunk.js.map",
+    "index.html": "/zelda-botw-starter/index.html",
+    "precache-manifest.5f8b818fae9124d9a0aa65ee679ea72e.js": "/zelda-botw-starter/precache-manifest.5f8b818fae9124d9a0aa65ee679ea72e.js",
+    "service-worker.js": "/zelda-botw-starter/service-worker.js",
+    "static/css/main.fd1968fe.chunk.css.map": "/zelda-botw-starter/static/css/main.fd1968fe.chunk.css.map",
+    "static/js/2.16547c78.chunk.js.LICENSE.txt": "/zelda-botw-starter/static/js/2.16547c78.chunk.js.LICENSE.txt",
+    "static/media/triforce.51d61b62.svg": "/zelda-botw-starter/static/media/triforce.51d61b62.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfebe4ee.js",
+    "static/js/2.16547c78.chunk.js",
+    "static/css/main.fd1968fe.chunk.css",
+    "static/js/main.e64ff212.chunk.js"
+  ]
+}
