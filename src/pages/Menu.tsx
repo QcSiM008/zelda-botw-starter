@@ -8,8 +8,8 @@ const Menu = () => {
   const [itemSelected, setItemSelected] = useState<IPosition>({ x: 0, y: 0 });
 
   const clickSelectedItem = () => null;
-  // @ts-nocheck
-  const handleKeyPressed = (event: React.KeyboardEvent) => {
+
+  /* const handleKeyPressed = (event: React.KeyboardEvent) => {
     let newItemSelected = null;
     if (event.key === 'ArrowUp') {
       newItemSelected = KeyboardUtils.goUp(itemSelected);
@@ -23,7 +23,7 @@ const Menu = () => {
     if (newItemSelected) {
       setItemSelected(newItemSelected);
     }
-  };
+  }; */
 
   return (
     <ItemsContext.Provider value={{ itemSelected, setItemSelected, clickSelectedItem }}>
