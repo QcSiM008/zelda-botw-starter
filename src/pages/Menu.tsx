@@ -8,7 +8,7 @@ const Menu = () => {
   const [itemSelected, setItemSelected] = useState<IPosition>({ x: 0, y: 0 });
 
   const clickSelectedItem = () => null;
-
+  // @ts-nocheck
   const handleKeyPressed = (event: React.KeyboardEvent) => {
     let newItemSelected = null;
     if (event.key === 'ArrowUp') {
